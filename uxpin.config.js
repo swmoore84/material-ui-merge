@@ -2,6 +2,15 @@ module.exports = {
   components: {
     categories: [
       {
+        name: "Layout",
+        include: [
+          "src/Grid/Grid.js",
+          "src/GridList/GridList.js",
+          "src/GridListTile/GridListTile.js",
+          "src/GridListTileBar/GridListTileBar.js"
+        ]
+      },
+      {
         name: "General",
         include: [
           "src/Icon/Icon.js",
